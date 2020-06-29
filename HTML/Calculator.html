@@ -1,1 +1,41 @@
-
+<!doctype html>
+<html>
+ <head> 
+  <link rel="stylesheet" href="pth.css"> 
+ </head> 
+ <body> 
+  <!--<form name="cal" class="phh">  --> 
+  <div class="phh"> 
+   <input class="box" name="display" id="boxx"> 
+   <table> 
+    <tbody>
+     <tr> 
+      <td><input class="button" type="button" value="C" onclick="document.getElementById('boxx').value=''"></td> 
+      <td><input class="button" type="button" value="<" onclick="document.getElementById('boxx').value+='<'"></td> 
+      <td><input class="button" type="button" value="/" onclick="document.getElementById('boxx').value+='/'"></td> 
+      <td><input class="button" type="button" value="*" onclick="document.getElementById('boxx').value+='*'"></td> 
+     </tr> 
+     <tr>
+      <td><input class="button" type="button" value="7" onclick="document.getElementById('boxx').value+='7'"></td> 
+      <td><input class="button" type="button" value="8" onclick="document.getElementById('boxx').value+='8'"></td> 
+      <td><input class="button" type="button" value="9" onclick="document.getElementById('boxx').value+='9'"></td> 
+      <td><input class="button" type="button" value="-" onclick="document.getElementById('boxx').value+='-'"></td> 
+     </tr> 
+     <tr> 
+      <td><input class="button" type="button" value="4" onclick="document.getElementById('boxx').value+='4'"></td> 
+      <td><input class="button" type="button" value="5" onclick="document.getElementById('boxx').value+='5'"></td> 
+      <td><input class="button" type="button" value="6" onclick="document.getElementById('boxx').value+='6'"></td> 
+      <td><input class="button" type="button" value="+" onclick="document.getElementById('boxx').value+='+'"></td> 
+     </tr> 
+     <tr> 
+      <td><input class="button" type="button" value="1" onclick="document.getElementById('boxx').value+='1'"></td> 
+      <td><input class="button" type="button" value="2" onclick="document.getElementById('boxx').value+='2'"></td> 
+      <td><input class="button" type="button" value="3" onclick="document.getElementById('boxx').value+='3'"></td> 
+      <td><input class="button" type="button" value="=" onclick="document.getElementById('boxx').value=eval(document.getElementById('boxx').value)"></td> 
+     </tr> 
+    </tbody>
+   </table> 
+   <!--</form>--> 
+  </div> 
+ </body>
+</html>
